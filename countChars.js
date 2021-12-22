@@ -4,7 +4,7 @@ function countChars(str, character) {
 
   // iterate over the "str" variable for its elements
   for (let element of str) {
-    if (element == character) {
+    if (element === character) {
       counter++;
     }
   }
