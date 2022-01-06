@@ -10,4 +10,14 @@ function range(a, b) {
     return numbers;
 }
 
-console.log(range(1, 10));
+let array = range(1, 10);
+
+function sum(array) {
+  if (array == []) {
+    return;
+  } else {
+    for (let i = 0; i <= array.length; i++) {
+      console.log(i);
+    }
+  }
+}
