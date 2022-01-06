@@ -20,7 +20,7 @@ function range(a, b, step = 1) {
 function sum(array) {
   // declare a variable to keep track of the sum of the numbers
   let result = 0;
-  // check if the arrayl is empty and if so => just return
+  // check if the array is empty and if so => just return
   if (array == []) {
     return;
   } else {
