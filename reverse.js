@@ -8,6 +8,7 @@ function reverseArray(array) {
 
 function reverseArrayInPlace(array) {
   const n = array.length - 1;
+  // getting the midpoint within the array
   const midPoint = Math.floor(n / 2);
 
   for (let i = 0; i < midPoint; i++) {
